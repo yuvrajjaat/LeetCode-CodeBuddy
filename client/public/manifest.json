@@ -1,0 +1,25 @@
+{
+    "name": "LeetCode Buddy",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "LeetCode Buddy - An extension to help you with peer coding with LeetCode",
+    "icons": {
+        "128": "./images/lc-logo-dark.png",
+        "48": "./images/lc-logo-dark.png",
+        "32": "./images/lc-logo-dark.png",
+        "16": "./images/lc-logo-dark.png"
+    }
+    ,"action": {
+        "default_title": "LeetCode Buddy",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.leetcode.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "storage", "tabs"
+    ]
+}
