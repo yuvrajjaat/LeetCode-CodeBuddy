@@ -69,8 +69,8 @@ Make sure you have the following installed:
 
 1. **Clone the Repository**
 ```bash
-git clone <repository-url>
-cd leetcode-buddy
+git clone https://github.com/yuvrajjaat/LeetCode-CodeBuddy
+cd LeetCode-CodeBuddy
 ```
 
 2. **Setup Backend**
